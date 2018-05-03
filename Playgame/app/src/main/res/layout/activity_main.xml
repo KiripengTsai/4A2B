@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/firstbackground"
+    tools:context=".MainActivity">
+    <!--在background属性那里调用我们的那个样式文件-->
+    <Button
+        android:id="@+id/about"
+        android:layout_width="122dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="76dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_btn_position_import"
+        android:gravity="center"
+        android:text="游戏规则"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/play_game"
+        android:layout_width="122dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="184dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_btn_position_import"
+        android:gravity="center"
+        android:text="登录游戏"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
